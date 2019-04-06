@@ -8,8 +8,8 @@
 ## Моя реализация:
 
 ### HTML:
-
-`<p>Введите два числа:</p>
+`
+<p>Введите два числа:</p>
 
 <label for="num1">Первое число
 <input type="text" id="num1" name="num">
@@ -21,7 +21,8 @@
 
 <button>Проверить</button>
 
-<p class="result"></p>`
+<p class="result"></p>
+`
 
 ### JS
 
