@@ -5,10 +5,11 @@
 220: 1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284;
 284: 1 + 2 + 4 + 71 + 142 = 220
 
-Моя реализация:
+## Моя реализация:
 
-HTML:
-    <p>Введите два числа:</p>
+### HTML:
+
+    `<p>Введите два числа:</p>
     
     <label for="num1">Первое число
       <input type="text" id="num1" name="num">
@@ -20,11 +21,11 @@ HTML:
     
     <button>Проверить</button>
     
-    <p class="result"></p>
+    <p class="result"></p>`
 
-JS
+### JS
 
-    (function result() {
+    `(function result() {
       let num = document.querySelectorAll('input[name=num]');
       let btn = document.querySelector('button');
       let res = document.querySelector('.result');
@@ -66,5 +67,5 @@ JS
       }
 
       return sum;
-    }
+    }`
 
