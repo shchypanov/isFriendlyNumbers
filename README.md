@@ -23,6 +23,7 @@ HTML:
     <p class="result"></p>
 
 JS
+
     (function result() {
       let num = document.querySelectorAll('input[name=num]');
       let btn = document.querySelector('button');
