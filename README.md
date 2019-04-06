@@ -8,25 +8,26 @@
 ## Моя реализация:
 
 ### HTML:
-`
+```html
 <p>Введите два числа:</p>
 
 <label for="num1">Первое число
-<input type="text" id="num1" name="num">
+  <input type="text" id="num1" name="num">
 </label>
 
 <label for="num2">Второе число
-<input type="text" id="num2" name="num">
+  <input type="text" id="num2" name="num">
 </label>
 
 <button>Проверить</button>
 
 <p class="result"></p>
-`
+```
 
 ### JS
 
-`(function result() {
+```js
+(function result() {
 let num = document.querySelectorAll('input[name=num]');
 let btn = document.querySelector('button');
 let res = document.querySelector('.result');
@@ -68,5 +69,6 @@ sum += arr[i];
 }
 
 return sum;
-}`
+}
+```
 
